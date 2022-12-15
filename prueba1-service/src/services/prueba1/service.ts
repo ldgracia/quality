@@ -14,7 +14,10 @@ const prueba1Service: Iprueba1Service = {
     async findAll(): Promise<any[]> {
         // Para enviar un mensaje a kafka
         // await Kafka.send("test", 'Hello');
+        if(1==1)
         return prueba1.findAll();
+        else
+        return prueba1.findAll();;
     }
 }
 
